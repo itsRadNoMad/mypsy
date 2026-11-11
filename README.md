@@ -1,1 +1,1 @@
-# mypsydesigns.github.io
+# mypsy
