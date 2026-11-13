@@ -39,8 +39,15 @@
     <h1>Contact</h1>
     <section class="container-fluid px-0">
         <div class="text-center">
-
-            <p>Contact page coming soon!</p>
+            <form action="mail_handler.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea rows="5" name="message" cols="30" required></textarea><br>
+                <input type="submit" name="submit" value="Submit">
+            </form>
         </div>
     </section>
 
