@@ -8,9 +8,9 @@ if(isset($_POST['submit'])){
     $message = <<<TO
       Hi Rad,
 
-      You've received the following message from $name <$email>:
+      You've received the following message from $name <$from>:
 
-      $_POST['message'];
+      {$_POST['message']}
 
       Thanks,
       MYPSY Daemon
@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
       
       I've attached a copy of your message for your records below:
 
-      $_POST['message'];
+      {$_POST['message']}
 
       Regards,
       Rad No Mad
